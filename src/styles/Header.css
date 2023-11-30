@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:30px;background-color: black;
+    border-bottom: 1px white;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.right{
+    background-color: brown;
+    width:auto;
+    height: auto;
+    border-radius: 25;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+button{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}

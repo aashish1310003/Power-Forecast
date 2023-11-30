@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #010101;
+    padding:10px;
+    column-gap: 15px;
+    row-gap: 10px;   
+}
+.grid-1 {
+    background-color: red;
+    padding:20px;
+}
+.item1{
+    background-color: #212529;
+    padding:20px;
+    font-family: 'Poppins', sans-serif;
+    grid-column: 1/span 1;
+    
+}
+.item2{
+    background-color: #212529;
+    grid-column: 2 / span 3;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.item3 {
+    background-color: 'transparent';
+    padding:20px;
+    margin-top: -170px;
+    font-family: 'Poppins', sans-serif;
+}
+.item4{
+    background-color: #212529;
+    grid-column: 2 / span 3;
+    
+    font-family: 'Poppins', sans-serif;
+
+}
+.hour {
+    display: flex;
+    overflow-x: auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #495057 #212529; /* For Firefox */
+  }
+  
+  .hour::-webkit-scrollbar {
+    width: 8px; /* For Chrome, Safari, and Opera */
+  }
+  
+  .hour::-webkit-scrollbar-thumb {
+    background-color: #212529; /* For Chrome, Safari, and Opera */
+  }
+  
+      .horizontal-card {
+        background-color: #212529;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        flex: 0 0 auto; 
+        width: 200px; 
+        height: 180px;
+        margin-right: 10px; 
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        font-family: 'Poppins', sans-serif;
+      }
+      .subGridContainer {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: black;
+        padding:10px;
+        column-gap: 15px;
+        row-gap: 10px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .subgrid {
+        background-color: red;
+        padding:10px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .item11{
+        background-color: #212529;
+        padding-bottom: 15px;
+        grid-column: 1 / span 2;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+
+    }
+    .item22{
+        background-color: #212529;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    .item33{
+        background-color: #212529;
+        padding-bottom: 160px;
+        grid-column: 1 /span 2;
+        font-family: 'Poppins', sans-serif;
+    }
+    .item44{
+        background-color: #212529;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+
+    

@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.solar-card {
+  font-family: 'Poppins', sans-serif;
+    
+      background-color: #161A1D; 
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 300px; 
+      margin: 20px auto; 
+      display: flex;
+      flex-direction: row;
+  
+} 
+.hour {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+      .horizontal-card {
+        background-color: #161A1D;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        flex: 0 0 auto; 
+        width: 200px; 
+        height: 150px;
+        margin-right: 10px; 
+        border-top: 1px solid #ccc;
+        font-family: 'Poppins', sans-serif;
+      }
+          

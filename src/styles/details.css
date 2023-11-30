@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.detailsGrid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+.detail-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .detail-item div {
+    display: flex;
+    flex-direction: column;
+  }

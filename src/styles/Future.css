@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.day {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  max-height: 300px;
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #495057 #161A1D; /* For Firefox */
+}
+
+.day::-webkit-scrollbar {
+  width: 1px; /* For Chrome, Safari, and Opera */
+}
+
+.day::-webkit-scrollbar-thumb {
+  background-color: #161A1D; /* For Chrome, Safari, and Opera */
+}
+
+.horizontal-card1 {
+  background-color: #161A1D;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+}
+
+  /* Add any other styling properties as needed */
+  

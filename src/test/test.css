@@ -1,0 +1,31 @@
+.container {
+    width:220px;
+    height:115px;
+    margin:auto;
+    overflow:hidden;
+    /* border:1px solid; */
+    right: 20px;
+  }
+  .sun {
+    margin:20px;
+    padding-top:calc(100% - 40px);
+    position:relative;
+    border-radius:50%;
+    border:1px solid grey;
+    transform:rotateX(20deg) rotate(20deg);
+    background:
+      linear-gradient(red,red) center/100% 1px;
+    background-repeat:no-repeat;
+    transition:1s;
+  }
+  .sun:before {
+    content:"";
+    position:absolute;
+    top:calc(50% - 15px);
+    left:-26px;
+    width:50px;
+    height:30px;
+    background-image: url(../assets//images/sun2.png);
+    background-size: cover; 
+    border-radius:50%;
+  }
