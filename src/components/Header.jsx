@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="Header">
       <div className="Left">
-        <h3 style={{marginTop:10}}>Weather Dashboard</h3>
+        <h3 style={{marginTop:10}}>Solar Forecast Dashboard</h3>
       </div>
       
       <div className="Right">

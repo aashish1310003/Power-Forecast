@@ -10,6 +10,7 @@ import WeatherComponent from "./currentInformation";
 import { IoPowerSharp } from 'react-icons/io5';
 import { GiPaperWindmill } from "react-icons/gi";
 import PollutionComponent from "./PollutionComponent";
+import CostEmission from "./cost";
 const Grid = () => {
   const [todayValue, setTodayValue] = useState(0);
 
@@ -133,7 +134,7 @@ const Grid = () => {
 
             <PollutionComponent />
           </div>
-          <div className="subgrid item44" style={{ borderRadius: 10,fontFamily:'Poppins' }}>4</div>
+          <div className="subgrid item44" style={{ borderRadius: 10,fontFamily:'Poppins' }}></div>
         </div>
         </div>
       <div className='grid item3' style={{ borderRadius: 10 ,marginTop:-130}}>
